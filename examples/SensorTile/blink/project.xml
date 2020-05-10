@@ -1,0 +1,10 @@
+<library>
+  <extends>modm:SensorTile</extends>
+  <options>
+    <option name="modm:build:build.path">../../../build/SensorTile/blink</option>
+  </options>
+  <modules>
+    <module>modm:platform:gpio</module>
+    <module>modm:build:scons</module>
+  </modules>
+</library>
